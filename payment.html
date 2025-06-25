@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metode Pembayaran | Tani Makmur</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional styles for payment page */
+        .payment-container {
+            max-width: 800px;
+            margin: center;
+            padding: 20px;
+        }
+        
+        .back-to-products {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--primary);
+            text-decoration: none;
+        }
+        
+        .back-to-products:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-leaf"></i>
+                    <span>Tani Makmur</span>
+                </div>
+                <a href="index.html" class="back-to-products">
+                    <i class="fas fa-arrow-left"></i> Kembali ke Produk
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="payment-container">
+        <h1>Metode Pembayaran</h1>
+        <h2>Metode Pembayaran</h2>
+        
+        <div class="payment-methods">
+            <!-- Bank Transfer -->
+            <div class="payment-method">
+                <div class="payment-header">
+                    <i class="fas fa-university"></i>
+                    <h2>Transfer Bank</h2>
+                </div>
+                <div class="payment-details">
+                    <div class="bank-account">
+                        <!-- <h3>Bank BCA</h3>
+                        <p>No. Rekening: <span id="bca-account">5485 0102 4250 537
+</span></p>
+                        <p>noza juniarti</p>
+                        <button class="copy-btn" data-target="bca-account">Salin Nomor</button> -->
+                    </div>
+                    <div class="bank-account">
+                        <h3>Bank Mandiri</h3>
+                        <p>No. Rekening: <span id="mandiri-account">5485 0102 4250 537</span></p>
+                        <p>Noza juniarti</p>
+                        <button class="copy-btn" data-target="mandiri-account">Salin Nomor</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- E-Wallets -->
+            <div class="payment-method">
+                <div class="payment-header">
+                    <i class="fas fa-wallet"></i>
+                    <h2>E-Wallet</h2>
+                </div>
+                <div class="payment-details">
+                    <div class="ewallet-option">
+                        <img src="./gambar/dana.png" alt="DANA" class="ewallet-logo">
+                        <p>No. HP: <span id="dana-number">081234567890</span></p>
+                        <p>Noaza juniarti</p>
+                        <button class="copy-btn" data-target="dana-number">Salin Nomor</button>
+                    </div>
+                    <div class="ewallet-option">
+                        <img src="./gambar/gopay.png" alt="GoPay" class="ewallet-logo">
+                        <p>No. HP: <span id="gopay-number">081234567890</span></p>
+                        <p>Noza juniarti</p>
+                        <button class="copy-btn" data-target="gopay-number">Salin Nomor</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="payment-instructions">
+            <h2>Instruksi Pembayaran:</h2>
+            <ol>
+                <li>Lakukan pembayaran sesuai total pesanan</li>
+                <li>Setelah pembayaran, kirim bukti transfer ke WhatsApp kami di 081234567890</li>
+                <li>Pesanan akan diproses dalam 1x24 jam setelah pembayaran dikonfirmasi</li>
+                <li>Untuk pertanyaan, hubungi CS kami di cs@tanisejahtera.com</li>
+            </ol>
+        </div>
+    </main>
+
+    <script src="js.js"></script>
+</body>
+</html>
